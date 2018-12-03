@@ -1,0 +1,12 @@
+                     LATEX PROJECT OF DRAWING GRAPHS
+For this project,we used python language.
+So for running this project,please use python3 or above
+These are following commands to run this project on terminal(Ubuntu):
+1) python3 1.py
+So you will see following output on your screen:
+  which graph you want to draw:
+   1) Directed Graph
+   2) Undirected Graph
+Enter your choice: 1 or 2
+So after selection 1st or 2nd option(whichone you want to draw),it will ask you to enter no. of vertices or input file containing matrix.
+Then after this pdf will be automatically opened of your desired graph. 

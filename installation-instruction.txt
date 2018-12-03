@@ -1,0 +1,5 @@
+                                Installation Instruction:
+-->REQUIREMENTS :
+1. Python 3.6 or higher (sudo apt-get install python3)
+2. pdflatex tex-live full (sudo apt-get install texlive-full)
+3. pdfreader (evince is recommended)

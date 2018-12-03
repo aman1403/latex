@@ -1,0 +1,34 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{graphics}
+ \title{Project - D-REGULAR GRAPHS}
+   \author{Avneet Sehgal, Aman}   
+
+\begin{document}
+      \maketitle
+         \section{Introduction}{In graph theory, a regular graph is a graph where each vertex has the same number of neighbors; i.e. every vertex has the same degree or valency. \\ A regular directed graph must also satisfy the stronger condition that the indegree and outdegree of each vertex are equal to each other. \\So we made graphs using tikz.}
+         \section{What we did}
+            \subsection{Procedure}{Using latex and tikz we started like this......
+            \begin{enumerate}
+       \item We used python for this project in which we made a tex file of desired graphs. 
+       \item We kept terminal commands in python code itself i.e, pdflatex and evince.
+       \item In tex file first created nodes as vertices according to input using for loops. 
+       \item Then we connected the nodes. \\For directed we connected the nodes the way they are given in input matrix.\\For undirected we just connected each node with every other node.
+       \item Atlast in case of directed graphs we labelled the edges according to their weight.
+   \end{enumerate}}
+          \subsection{Improvements}{We corrected our problem of giving inputs manually......
+              \begin{enumerate}
+       \item We wrote the full code of latex in python program itself.\\Thus when python program was running it compiled and executed the latex code.
+       \item We removed the tex file after the work is done for preventing overwriting.
+   \end{enumerate}}
+          \section{Real life applications}{Here are some notable applications of these graphs
+   \begin{enumerate}
+       \item The link structure of a website can be represented by a directed graph, in which the vertices represent web pages and directed edges represent links from one page to another. 
+       \item Graphs are also widely used in sociology as a way, for example, to measure actors' prestige or to explore rumor spreading, notably through the use of social network analysis software.
+       \item Graphs are useful in geometry and certain parts of topology such as knot theory. 
+       \item Graphs ae used for looking at breeding patterns or tracking the spread of disease, parasites or how changes to the movement can affect other species.
+       \item Weighted graphs are commonly used to program GPS's, and travel-planning search engines that compare flight times and costs.
+   \end{enumerate}}
+   \begin{center}
+   ********************END********************
+   \end{center}
+   \end{document}
